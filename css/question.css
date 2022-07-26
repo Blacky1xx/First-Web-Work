@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #1a152bd2;
+  color: #b9b5c7;
+  font: 14px "Open Sans", sans-serif;
+}
+
+.top {
+  padding-right: 20px;
+  background: #4f4674;
+  text-align: right;
+}
+a {
+  color: rgba(255, 255, 255, 0.6);
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 42px;
+}
+
+h1 {
+  padding: 50px 0;
+  font-weight: 400;
+  text-align: center;
+}
+
+.main {
+  margin: 0 auto;
+  max-width: 500px;
+}
+.main .quizsection {
+  margin-bottom: 20px;
+}
+
+input[type="submit"] {
+  border: 1px solid #f40e0e;
+  color: rgb(12, 11, 11);
+  background: rgb(0, 238, 40);
+  padding: 10px 20px;
+  border-radius: 3px;
+}
+
+input[type="reset"] {
+  border: 1px solid #f44c0e;
+  color: #fff;
+  background: tomato;
+  padding: 10px 20px;
+  border-radius: 3px;
+}
+
+.btn-secondary {
+  color: #fff;
+  background-color: #1d4d77;
+  border-color: #c7daeb;
+  padding: 10px 20px;
+}

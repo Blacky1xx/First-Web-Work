@@ -1,0 +1,73 @@
+body {
+  background-color: #a88b8bd3;
+}
+
+.card {
+  border-radius: 1em;
+  text-align: center;
+  padding: 1em;
+  /*выравниваем высоту блока*/
+  height: 100%;
+  background-color: rgba(22, 108, 207, 0.164);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  transform: translate3d(0px, -20px, 0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card img {
+  border-radius: 20px;
+  width: 100%;
+  margin: auto;
+  /* Корректируем пропорции картинок */
+  height: auto;
+}
+
+.card-body__wrap {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0 0;
+}
+
+.card-body__wrap a.btn {
+  margin-top: auto;
+  border: 2px solid #198754;
+}
+
+.header {
+  background-color: black;
+  box-shadow: 0 0 20px;
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: #f1f3f5;
+  border: 2px solid #3493db;
+  transition: 0.3s linear;
+}
+
+.showlist-button {
+  margin-bottom: 30px;
+  justify-content: flex-end;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.showlist-button button {
+  width: 150px;
+}
+
+#cardlist.row-cols-lg-1 .card {
+  flex-direction: row;
+}
+
+#cardlist.row-cols-lg-1 .card img {
+  margin-right: 15px;
+}
+
+#cardlist.row-cols-lg-1 .card .card-body__wrap {
+  width: 400px;
+  text-align: left;
+}

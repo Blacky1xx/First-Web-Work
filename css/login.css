@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url(../photo/zadnifon.jpg.jpg) no-repeat center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.header {
+  background-color: black;
+  box-shadow: 0 0 20px;
+}
+
+.box {
+  width: 350px;
+  padding: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  border-radius: 30px;
+  box-shadow: 0 0 100px;
+}
+
+.box h1 {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.box input[type="text"],
+.box input[type="password"] {
+  background: rgba(255, 255, 255, 0.3);
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 3px solid #0367fd;
+  padding: 14px 10px;
+  width: 220px;
+  outline: none;
+  color: rgb(255, 255, 255);
+  border-radius: 24px;
+  transition: 0.25px;
+}
+.box input[type="text"]::placeholder,
+.box input[type="password"]::placeholder {
+  color: white;
+  font-size: 14px;
+}
+
+.box input[type="text"]:focus,
+.box input[type="password"]:focus {
+  width: 270px;
+  border-color: #ffc300ec;
+}
+
+.box input[type="submit"] {
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 3px solid #ffc400ec;
+  padding: 14px 35px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25px;
+  cursor: pointer;
+}
+.box input[type="submit"]:hover {
+  background: #ffc400ec;
+}
+
+.alert {
+  position: absolute;
+  top: 80px;
+  width: 350px;
+  left: 50%;
+  transform: translateX(-50%);
+}

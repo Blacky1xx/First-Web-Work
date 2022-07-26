@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Favorite cars</title>
+    <meta name="description" content="This page is about old Japanes cars">
+    <meta name="author" content="Suzuki Kawasaki toyota supra mazda honda civic drift drag">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="css/jdm.css">
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous">
+    </script>
+
+
+
+  </head>
+
+  <body>
+
+  <div class="header">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">
+            <img src="photo/JDM.png" alt="Logo" width="50" height="31" />
+          </a>
+          <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        id="dropdownMenuButton1"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                >
+                  Main Menu
+                </a>
+                <ul
+                        class="dropdown-menu"
+                        aria-labelledby="dropdownMenuButton1"
+                >
+                  <li><a class="dropdown-item" href="index.html">Home</a></li>
+                  <li>
+                    <a class="dropdown-item" href="jdm.html">Favorite Cars</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="story.html">Story</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="contact.html">Contacts</a>
+                  </li>
+                  <li>
+                    <a
+                            class="dropdown-item"
+                            href="https://japancardirect.com/japan-car-news/"
+                    >News</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="weatherapi.html"
+                      >Weather API</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="question.html">Test </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="lorem.html">Lorem text</a>
+                  </li>
+                </ul>
+              </li>
+              <!--Language menu-->
+              <li class="nav-item dropdown">
+                <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        id="dropdownMenuButton2"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                >
+                  Language
+                </a>
+                <ul
+                        class="dropdown-menu"
+                        aria-labelledby="dropdownMenuButton2"
+                >
+                  <li><a class="dropdown-item" href="/">English</a></li>
+                  <li>
+                    <a class="dropdown-item" href="/">Russian</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <!--Registr and Log-->
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="registration.html">Registration</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Log In</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+    <div class="container my-5">
+      <div class="row showlist-button"><button onclick="showlist()">Show list</button></div>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5" id="cardlist">
+        <div class="col">
+          <div class="card">
+            <img src="photo/mazdarx7.jpg"  height="auto" class="card-img-top" alt="Car image">
+            <div class="card-body card-body__wrap">
+              <h5 class="card-title">Mazda Rx7 1992</h5>
+              <p class="card-text">Engine	Twin-chamber rotary, twin-turbo.
+                Max power	237bhp @ 6500rpm.Max torque	218lb ft @ 5000rpm.Weight	1284kg.
+                Power-to-weight	184bhp/ton.0-60mph	5.4sec (claimed).Top speed	156mph (limited)
+              </p>
+              <a href="https://www.youtube.com/watch?v=VB5qItAE64A&ab_channel=DonutMedia" class="btn btn-success">Video about car 
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">       
+          <div class="card">
+            <img src="photo/toyota supra.jpg" height="190" class="card-img-top" alt="toyota supra">
+            <div class="card-body card-body__wrap">
+              <h5 class="card-title">Toyota Supra</h5>
+              <p class="card-text">Model years	1993–1998.Designer	Isao Tsuzuki (1990).Engine	
+                2997 cc 2JZ-GE I6
+                2997 cc 2JZ-GTE twin-turbo I6
+                Transmission	
+                5-speed W58 manual
+                6-speed V16x (Getrag 233) manual
+                4-speed A340E automatic.</p>
+              <a href="https://www.youtube.com/watch?v=MqarV06DDWo&ab_channel=DonutMedia" class="btn btn-success">Video about car</a>
+            </div>
+          </div>
+        </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="photo/subaru impreza.jpg" height="auto" class="card-img-top" alt="Subaru Impreza">
+          <div class="card-body card-body__wrap">
+            <h5 class="card-title">Subaru Impreza WRX Sti</h5>
+            <p class="card-text">Model year: 1992-2000
+              Engine displacement: 2 litres
+              Power output: 247-276 bhp
+              Drivetrain configuration: AWD.</p>
+            <a href="https://www.youtube.com/watch?v=j1LDtdlDyjU&ab_channel=DonutMedia" class="btn btn-success">Video about car</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="photo/Mitsubishi Lancer Evolution VI.jpg" height="auto" class="card-img-top" alt="Mitsubishi Lancer Evolution VI">
+          <div class="card-body card-body__wrap">
+            <h5 class="card-title">Mitsubishi Lancer Evolution VI</h5>
+            <p class="card-text">Model year: 1999-2001<br>
+              Engine displacement: 2 litres<br>
+              Power output: 276 bhp<br>
+              Drivetrain configuration: AWD.
+            </p>
+            <a href="https://www.youtube.com/watch?v=z9rfPuCuDmc&feature=emb_imp_woyt&ab_channel=DonutMedia" class="btn btn-success">Video about car</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="photo/Honda_DC2_Integra_Type_R.jpg" height="422" width="750" class="card-img-top" alt="Honda DC2 Integra Type R"/>
+          <div class="card-body card-body__wrap card-body card-body__wrap__wrap">
+            <h5 class="card-title">Honda DC2 Integra Type R</h5>
+            <p class="card-text">Model year: 1995 - 2001<br>
+              Engine displacement: 1.8 litres<br>
+              Power output: 200 bhp<br>
+              Drivetrain configuration: FWD.
+            </p>
+            <a href="https://www.youtube.com/watch?v=1bREctztpkM&feature=emb_imp_woyt&ab_channel=DonutMedia" class="btn btn-success">Video about car</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="photo/Nissan Silvia.jpg" height="227" class="card-img-top" alt="Nissan Silvia"/>
+          <div class="card-body card-body__wrap">
+            <h5 class="card-title">Nissan Silvia</h5>
+            <p class="card-text">Model year: 1989-2002<br>
+              Engine displacement: 2 litres<br>
+              Power output: 133-247 bhp<br>
+              Drivetrain configuration: RWD.
+            </p>
+            <a href="https://www.youtube.com/watch?v=kouLVHEx51k&feature=emb_imp_woyt&ab_channel=DonutMedia" class="btn btn-success">Video about car</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="photo/Nissan 300 ZX.jpg" height="250" class="card-img-top" alt="Nissan 300 ZX"/>
+          <div class="card-body card-body__wrap">
+            <h5 class="card-title">Nissan 300 ZX</h5>
+            <p class="card-text">Model year: 1989 – 2000<br>
+              Engine displacement: 3 litres<br>
+              Power output: 300 bhp<br>
+              Drivetrain configuration: RWD.
+            </p>
+            <a href="https://www.youtube.com/watch?v=sKjx28eDla0&feature=emb_imp_woyt&ab_channel=ThatDudeinBlue" class="btn btn-success">Video about car</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col">
+        <div class="card">
+          <img src="photo/Honda EK9 Civic Type R.jpg" height="422" width="750" class="card-img-top" alt="Honda EK9 Civic Type R"/>
+          <div class="card-body card-body__wrap ">
+            <h5 class="card-title">Honda EK9 Civic Type R</h5>
+            <p class="card-text">Model year: 1997 - 2001<br>
+              Engine displacement: 1.6 litres<br>
+              Power output: 182 bhp<br>
+              Drivetrain configuration: FWD.
+            </p>
+            <a href="https://www.youtube.com/watch?v=pom34VqPV7Y&ab_channel=DonutMedia" class="btn btn-success">Video About car</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="photo/Nissan Pulsar GTI-R.jpg" height="250" class="card-img-top" alt="Nissan Pulsar GTI-R"/>
+          <div class="card-body card-body__wrap">
+            <h5 class="card-title">Nissan Pulsar GTI-R</h5>
+            <p class="card-text">Model year: 1990 - 1994<br>
+              Engine displacement: 2 litres<br>
+              Power output: 186-227 bhp<br>
+              Drivetrain configuration: AWD.
+            </p>
+            <a href="https://www.youtube.com/watch?v=B-gxmbdTuTA&ab_channel=OFFICIALLYGASSED-OG" class="btn btn-success">Video about car</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="photo/Nissan GTR.jpg" class="card-img-top" alt="Nissan GTR"/>
+          <div class="card-body card-body__wrap">
+            <h5 class="card-title">Nissan GTR</h5>
+            <p class="card-text">Model years	2009–present.Class	
+              Sports car (S)<br>
+              Grand tourer (S).Body style	2-door 2+2 seater coupé.Layout	Front mid-engine, all-wheel drive.<br>
+              Engine	3.8 L twin-turbocharged VR38DETT V6.<br>
+              Power output
+            <ul>
+              <li>358 kW (480 hp; 487 PS) (2007–2009)</li>
+              <li>362 kW (485 hp; 492 PS) (2010)</li>
+              <li>395 kW (530 hp; 537 PS) (2011–2012)</li>
+              <li>407 kW (545 hp; 553 PS) (2013–2016)</li>
+              <li>421 kW (565 hp; 573 PS) (2017–present)</li>
+              <li>447 kW (600 hp; 608 PS) (Nismo, Track Edition)</li>
+              <li>530 kW (710 hp; 720 PS) (GT-R50)</li>
+            </ul>
+
+            </p>
+            <a href="https://www.youtube.com/watch?v=AzFHfk2Vd7Y&feature=emb_imp_woyt&ab_channel=TopGear" class="btn btn-success">Video about car</a>
+          </div>
+        </div>
+      </div>
+
+      </div>
+
+    </div>
+
+    <script src="js/jdm.js"></script>
+
+  </body>
+</html>

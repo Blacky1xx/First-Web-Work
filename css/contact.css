@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill  Sans", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: url(../photo/zadnifon.jpg.jpg) no-repeat center;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  background-color: black;
+  box-shadow: 0 0 20px;
+}
+
+.contact-page {
+  width: 100%;
+  max-width: 1400px;
+  padding: 50px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+h2 {
+  margin-bottom: 80px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 50px;
+}
+
+.contact-info,
+.contact-form {
+  flex: 1;
+}
+
+.item {
+  margin-bottom: 24px;
+  font-size: 16px;
+  color: #fff;
+  background: rgba(33, 37, 41, 85%);
+  border-radius: 30px;
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  background-color: #3493db;
+  text-align: center;
+  color: #fff;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+.col-right {
+  text-align: right;
+}
+
+.contact-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.contact-form__wrap,
+.contact-page__info {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.textb {
+  width: calc(50% - 10px);
+  height: 50px;
+  padding: 12px;
+  background-color: #222;
+  border: none;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 100%;
+  min-height: 200px;
+  max-height: 400px;
+  resize: vertical;
+  padding: 12px;
+  background-color: #222;
+  border: none;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.btn1 {
+  width: 120px;
+  height: 40px;
+  margin-left: auto;
+  background-color: #3493db;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: 2px solid #3493db;
+  transition: 0.3s linear;
+}
+.btn:hover {
+  background-color: transparent;
+  color: #f1f3f5;
+  border: 2px solid #3493db;
+  transition: 0.3s linear;
+}
+
+@media screen and (max-width: 980px) {
+  .contact-page {
+    max-width: 800px;
+  }
+  h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+
+  .contact-info,
+  .contact-form {
+    flex: 100%;
+    margin-bottom: 30px;
+  }
+  .textb {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact-page__info .item {
+    display: flex;
+    align-items: center;
+  }
+  .contact-page__info .item .icon {
+    flex: none;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .contact-page__info {
+    flex-direction: column;
+  }
+  .contact-page__info .col {
+    width: 100%;
+  }
+}
+
+.mapouter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.gmap_wrapper {
+  margin: 120px 0 0;
+  padding: 0;
+  line-height: 1;
+}
+
+#gmap_canvas {
+  width: 100%;
+  margin-bottom: -5px;
+}

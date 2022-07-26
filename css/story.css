@@ -1,0 +1,37 @@
+body {
+  min-height: 100vh;
+  background: url(../photo/zadnifon.jpg.jpg) no-repeat center;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  background-color: black;
+  box-shadow: 0 0 20px;
+}
+
+.story-content p {
+  background-color: rgba(107, 103, 103, 0.527);
+  font-size: 20px;
+  color: wheat;
+  padding: 15px;
+  margin-bottom: 60px;
+}
+
+h2 {
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  background: rgba(33, 37, 41, 85%);
+  border-radius: 40px;
+  font-size: 30px;
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: #f1f3f5;
+  border: 2px solid #3493db;
+  transition: 0.3s linear;
+}
